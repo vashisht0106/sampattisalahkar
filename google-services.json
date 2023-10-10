@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "623890612972",
+    "project_id": "sampatti-salahkar-44d9c",
+    "storage_bucket": "sampatti-salahkar-44d9c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:623890612972:android:ccd2200207ecc5f79f5bc9",
+        "android_client_info": {
+          "package_name": "com.SampattiSalahkar.SS.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvINOlJC48Y_Ob1LVudLMomksX08sUOfI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

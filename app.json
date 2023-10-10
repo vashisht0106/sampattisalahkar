@@ -1,0 +1,107 @@
+{
+  "expo": {
+    "name": "Sampatti Salahkar",
+    "slug": "sampattisalahkar",
+    "version": "2.0.2",
+    "plugins": [
+      [
+        "expo-document-picker",
+        {
+          "appleTeamId": "H6TN8YH8N7I",
+          "iCloudContainerEnvironment": "Production"
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/icon.png",
+          "color": "#ffffff",
+          "mode": "production"
+        }
+      ],
+      "expo-localization"
+    ],
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "notification": {
+      "icon": "./assets/icon.png",
+      "color": "#ffffff",
+      "iosDisplayInForeground": true,
+      "androidMode": "default"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "usesAppleSignIn": true,
+      "supportsTablet": true,
+      "bundleIdentifier": "com.SampattiSalahkar.SS.app",
+      "buildNumber": "1",
+      "usesIcloudStorage": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "Sampatti Salahkar uses the camera to capture and upload user profile image and Listing Image to the server.",
+        "NSPhotoLibraryUsageDescription": "Sampatti Salahkar needs access to the photo library to select and upload user profile image and Listing Image to the server.",
+        "NSPhotoLibraryAddUsageDescription": "Sampatti Salahkar needs access to the photo library to select and upload user profile image and Listing Image to the server.",
+        "NSLocationWhenInUseUsageDescription": "Sampatti Salahkar usages device location on listing information, Listing search Data and User information.",
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "Sampatti Salahkar usages device location on listing information, Listing search Data and User information.",
+        "NSLocationAlwaysUsageDescription": "Sampatti Salahkar uses device location on listing information, Listing search Data and User information.",
+        "NSMicrophoneUsageDescription": "Sampatti Salahkar uses your microphone while taking video of your property for uploading in listing information.",
+        "NSUserTrackingUsageDescription": "Sampatti Salahkar wants to track you to collect IDFA to deliver personalised ads.",
+        "CFBundleAllowMixedLocalizations": true,
+        "UIBackgroundModes": [
+          "remote-notification"
+        ]
+      },
+      "config": {
+        "googleMapsApiKey": "2bLSVyGX5GEggT2wARP0noZInG_AIzaSyCs0TJf"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "android": {
+      "googleServicesFile": "./google-services.json",
+      "package": "com.SampattiSalahkar.SS.app",
+      "config": {
+        "googleMaps": {
+          "apiKey": "2bLSVyGX5GEggT2wARP0noZInG_AIzaSyCs0TJf"
+        }
+      },
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#fff"
+      },
+      "permissions": [
+        "CAMERA",
+        "CAMERA_ROLL",
+        "MEDIA_LIBRARY",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "RECORD_AUDIO",
+        "READ_PHONE_STATE",
+        "READ_CONTACTS",
+        "LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "RECEIVE_BOOT_COMPLETED",
+        "android.permission.INTERNET",
+        "POST_NOTIFICATIONS"
+      ],
+      "versionCode": 3
+    },
+    "scheme": "sampattisalahkar",
+    "extra": {
+      "eas": {
+        "projectId": "9d8a89df-125b-45fd-9f42-b6760b3da2f5"
+      }
+    }
+  }
+}
